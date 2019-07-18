@@ -3,11 +3,11 @@ This repository contains pre-built binaries for zenoh and YAKS.
 
 ## zenoh
 - latest
-    - [macos](./zenoh/latex/macos/zenohd) 
-    - [ubuntu](./zenoh/latex/ubuntu/zenohd)
+    - [macos](./zenoh/latest/macos/zenohd) 
+    - [ubuntu](./zenoh/latest/ubuntu/zenohd)
 
 
 ## YAKS
 - latest
-    - [macos](./yaks/latex/macos/yaksd) 
-    - [ubuntu](./yaks/latex/ubuntu/yaksd)
+    - [macos](./yaks/latest/macos/yaksd) 
+    - [ubuntu](./yaks/latest/ubuntu/yaksd)
