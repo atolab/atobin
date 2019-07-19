@@ -35,4 +35,4 @@ This repository contains pre-built binaries for zenoh and YAKS.
 | Description | Download Link |
 | --- | --- |
 | [macos](./zenoh-c/latest/macos)   | [10.15.5](./zenoh-c/latest/macos/10.15.5/libzenohc.dylib)  |
-| [ubuntu](./zenoh-c/latest/ubuntu) | [18.10](./zenoh-c/latest/ubuntu/18.10/libzenohc.so)        |
+| [ubuntu 16.04](./zenoh-c/latest/ubuntu) | [16.04](./zenoh-c/latest/ubuntu/16.04/libzenohc.so)  |
