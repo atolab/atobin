@@ -28,7 +28,7 @@ This repository contains pre-built binaries for zenoh and YAKS network service.
 ## ATO Prebuilt SDK
 This repository contains pre-built binaries for zenoh and YAKS.
 
-###zenoh C API
+### zenoh-C API
 
 **Latest release**
 
