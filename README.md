@@ -11,7 +11,7 @@ This repository contains pre-built binaries for zenoh and YAKS network service.
 | Description | Download Link |
 | --- | --- |
 | [macos](./zenoh/latest/macos)   | [10.15.5](./zenoh/latest/macos/10.15.5/zenohd)    |
-| [ubuntu](./zenoh/latest/ubuntu) | [18.10](./zenoh/latest/ubuntu/18.10/zenohd)       |
+| [ubuntu](./zenoh/latest/ubuntu) | [16.04](./zenoh/latest/ubuntu/16.04/zenohd), [18.10](./zenoh/latest/ubuntu/18.10/zenohd)       |
 | [centos](./zenoh/latest/centos) | [7.2.1511](./zenoh/latest/centos/7.2.1511/zenohd) |
 
 
