@@ -22,7 +22,7 @@ This repository contains pre-built binaries for zenoh and YAKS network service.
 | Description | Download Link |
 | --- | --- |
 | [macos](./yaks/latest/macos)   | [10.15.5](./yaks/latest/macos/10.15.5/yaksd)    |
-| [ubuntu](./yaks/latest/ubuntu) | [18.10](./yaks/latest/ubuntu/18.10/yaksd)       |
+| [ubuntu](./yaks/latest/ubuntu) | [16.04](./yaks/latest/ubuntu/16.04/yaksd), [18.10](./yaks/latest/ubuntu/18.10/yaksd)       |
 | [centos](./yaks/latest/centos) | [7.2.1511](./yaks/latest/centos/7.2.1511/yaksd) |
 
 ## ATO Prebuilt SDK
@@ -35,4 +35,4 @@ This repository contains pre-built binaries for zenoh and YAKS.
 | Description | Download Link |
 | --- | --- |
 | [macos](./zenoh-c/latest/macos)   | [10.15.5](./zenoh-c/latest/macos/10.15.5/libzenohc.dylib)  |
-| [ubuntu 16.04](./zenoh-c/latest/ubuntu) | [16.04](./zenoh-c/latest/ubuntu/16.04/libzenohc.so)  |
+| [ubuntu](./zenoh-c/latest/ubuntu) | [16.04](./zenoh-c/latest/ubuntu/16.04/libzenohc.so), [18.10](./zenoh-c/latest/ubuntu/18.10/libzenohc.so)  |
