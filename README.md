@@ -4,7 +4,15 @@ This repository contains pre-built network services as well as pre-build SDKs.
 ## ATO Prebuilt Network Services
 This repository contains pre-built binaries for zenoh and YAKS network service.
 
+## ATO Prebuilt Debian Packages
+
 ### zenoh
+
+In order to install zenoh in Ubuntu, do the following steps:
+> wget -O zenohd.deb https://github.com/atolab/atobin/blob/master/zenoh/latest/ubuntu/16.04/zenohd-0.3.0_amd64.deb?raw=true
+> sudo apt install ./zenohd.deb
+To test if zenoh is correctly install, do:
+>  zenohd --help
 
 **Latest release: 2019-07-19**
 
@@ -17,6 +25,12 @@ This repository contains pre-built binaries for zenoh and YAKS network service.
 
 
 ### YAKS
+
+In order to install YAKS in Ubuntu i.e Ubuntu-1604, do the following steps:
+> wget -O yaksd.deb https://github.com/atolab/atobin/blob/master/yaks/latest/ubuntu/16.04/yaksd-0.3.0_amd64.deb?raw=true
+> sudo apt install ./yaksd.deb
+To test if YAKS is correctly install, do:
+>  yaksd --help
 
 **Latest release: 2019-07-19**
 
