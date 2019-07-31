@@ -8,12 +8,15 @@ This repository contains pre-built binaries for zenoh and YAKS network service.
 
 ### zenoh
 
-In order to install zenoh in Ubuntu, do the following steps:
+In order to install **zenoh** in Ubuntu (i.e Ubuntu-1604), exec the following commands in a console:
+```
 > wget -O zenohd.deb https://github.com/atolab/atobin/blob/master/zenoh/latest/ubuntu/16.04/zenohd-0.3.0_amd64.deb?raw=true
 > sudo apt install ./zenohd.deb
-To test if zenoh is correctly install, do:
->  zenohd --help
-
+```
+To test if **zenoh** is installed correctly:
+```
+> zenohd --help
+```
 **Latest release: 2019-07-19**
 
 | OS | Binaries | Debian package |
@@ -26,11 +29,15 @@ To test if zenoh is correctly install, do:
 
 ### YAKS
 
-In order to install YAKS in Ubuntu i.e Ubuntu-1604, do the following steps:
+In order to install **YAKS** in Ubuntu (i.e Ubuntu-1604) exec the following commands in a console:
+```
 > wget -O yaksd.deb https://github.com/atolab/atobin/blob/master/yaks/latest/ubuntu/16.04/yaksd-0.3.0_amd64.deb?raw=true
 > sudo apt install ./yaksd.deb
-To test if YAKS is correctly install, do:
+```
+To test if **YAKS** is installed correctly:
+```
 >  yaksd --help
+```
 
 **Latest release: 2019-07-19**
 
