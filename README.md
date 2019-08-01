@@ -24,7 +24,7 @@ To test if **zenoh** is installed correctly:
 | [macos](./zenoh/latest/macos)   | [10.15.5](./zenoh/latest/macos/10.15.5/zenohd)    ||
 | [ubuntu](./zenoh/latest/ubuntu) | [16.04](./zenoh/latest/ubuntu/16.04/zenohd) | [zenohd-u1604.deb](./zenoh/latest/ubuntu/16.04/zenohd-0.3.0_amd64.deb)     |
 || [18.10](./zenoh/latest/ubuntu/18.10/zenohd) | [zenohd-u1810.deb](./zenoh/latest/ubuntu/18.10/zenohd-0.3.0_amd64.deb) |
-| [centos](./zenoh/latest/centos) | [7.2.1511](./zenoh/latest/centos/7.2.1511/zenohd) ||
+| [centos](./zenoh/latest/centos) | [7.2.1511](./zenoh/latest/centos/7.2.1511/zenohd) | [zenohd.x86_64.rpm](./zenoh/latest/centos/7.2.1511/zenohd-0.3.0-1.el7.x86_64.rpm)|
 
 
 ### YAKS
@@ -46,7 +46,7 @@ To test if **YAKS** is installed correctly:
 | [macos](./yaks/latest/macos)   | [10.15.5](./yaks/latest/macos/10.15.5/yaksd)    | |
 | [ubuntu](./yaks/latest/ubuntu) | [16.04](./yaks/latest/ubuntu/16.04/yaksd) | [yaksd-u1604.deb](./yaks/latest/ubuntu/16.04/yaksd-0.3.0_amd64.deb)    |
 | | [18.10](./yaks/latest/ubuntu/18.10/yaksd) | [yaksd-u1810.deb](./yaks/latest/ubuntu/18.10/yaksd-0.3.0_amd64.deb) |
-| [centos](./yaks/latest/centos) | [7.2.1511](./yaks/latest/centos/7.2.1511/yaksd) | |
+| [centos](./yaks/latest/centos) | [7.2.1511](./yaks/latest/centos/7.2.1511/yaksd) | [yaksd.x86_64.rpm](./yaks/latest/centos/7.2.1511/yaksd-0.3.0-1.el7.x86_64.rpm) |
 
 ## ATO Prebuilt SDK
 This repository contains pre-built binaries for zenoh and YAKS.
