@@ -10,16 +10,28 @@ To test if **zenoh** is installed correctly:
 > zenohd --help
 ```
 
-
-### Installing YAKS in CentOS
-
-In order to install **YAKS** in CentOs (i.e 7.2.1511) directly from the rpm package, exec the following commands in a console:
+Then the man for zenohd should appear:
 
 ```
-> wget -O yaksd.rpm https://github.com/atolab/atobin/blob/master/yaks/latest/centos/7.2.1511/yaksd-0.3.0-1.el7.x86_64.rpm?raw=true
-> yum localinstall ./yaksd.rpm
-```
-To test if YAKS is installed correctly:
-```
->  yaksd --help
+zenohd(1)                        Zenohd Manual                       zenohd(1)
+
+
+
+NAME
+       zenohd
+
+SYNOPSIS
+       zenohd [OPTION]...
+
+OPTIONS
+       --color=WHEN (absent=auto)
+           Colorize the output. WHEN must be one of `auto', `always' or
+           `never'.
+
+       --help[=FMT] (default=auto)
+           Show this help in format FMT. The value FMT must be one of `auto',
+           `pager', `groff' or `plain'. With `auto', the format is `pager` or
+           `plain' whenever the TERM env var is `dumb' or undefined.
+
+(this is an extract)
 ```
