@@ -11,7 +11,7 @@ To test if **zenoh** is installed correctly:
 ```
 
 
-### Installing YAKS in Ubuntu
+### Installing YAKS in CentOS
 
 In order to install **YAKS** in CentOs (i.e 7.2.1511) directly from the rpm package, exec the following commands in a console:
 
