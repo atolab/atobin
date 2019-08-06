@@ -36,8 +36,8 @@ This repository contains pre-built binaries for zenoh and YAKS.
 
 **Latest release: 2019-07-19**
 
-| OS | Binaries |
-| --- | --- |
+| OS | Binaries |  Debian package |
+| --- | --- | --- |
 | [macos](./zenoh-c/latest/macos)   | [10.15.5](./zenoh-c/latest/macos/10.15.5/libzenohc.dylib)  |
-| [ubuntu](./zenoh-c/latest/ubuntu) | [16.04](./zenoh-c/latest/ubuntu/16.04/libzenohc.so) |
-| | [18.10](./zenoh-c/latest/ubuntu/18.10/libzenohc.so)  |
+| [ubuntu](./zenoh-c/latest/ubuntu) | [16.04](./zenoh-c/latest/ubuntu/16.04/libzenohc.so) | [libzenohc-u1640.deb](./zenoh-c/latest/ubuntu/16.04/libzenohc-0.3.0_amd64.deb) |
+| | [18.10](./zenoh-c/latest/ubuntu/18.10/libzenohc.so)  | [libzenohc-u1810.deb](./zenoh-c/latest/ubuntu/18.10/libzenohc-0.3.0_amd64.deb) |
