@@ -12,7 +12,7 @@ This repository contains pre-built binaries for zenoh and YAKS network service.
 
 | OS | Binaries | Brew/Debian/RPM package |
 | --- | --- | --- |
-| [macos](./zenoh/latest/macos)   | [10.15.5](./zenoh/latest/macos/10.15.5/zenohd)  | [brew] (./zenoh/latest/macos) |
+| [macos](./zenoh/latest/macos)   | [10.15.5](./zenoh/latest/macos/10.15.5/zenohd)  | [brew](./zenoh/latest/macos) |
 | [ubuntu](./zenoh/latest/ubuntu) | [16.04](./zenoh/latest/ubuntu/16.04/zenohd) | [zenohd-u1604.deb](./zenoh/latest/ubuntu/16.04/zenohd-0.3.0_amd64.deb) |
 || [18.10](./zenoh/latest/ubuntu/18.10/zenohd) | [zenohd-u1810.deb](./zenoh/latest/ubuntu/18.10/zenohd-0.3.0_amd64.deb) |
 | [centos](./zenoh/latest/centos) | [7.2.1511](./zenoh/latest/centos/7.2.1511/zenohd) | [zenohd.x86_64.rpm](./zenoh/latest/centos/7.2.1511/zenohd-0.3.0-1.el7.x86_64.rpm)|
