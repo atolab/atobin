@@ -1,0 +1,11 @@
+Package: zenohd
+Version: 0.3.0
+Section: custom
+Priority: optional
+Architecture: all
+Essential: no
+Installed-Size: 1024
+Depends: libev4
+Maintainer: ivan.paez@adlinktech.com
+Description: Zenoh deamon
+

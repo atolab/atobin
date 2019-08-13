@@ -1,0 +1,10 @@
+Package: libzenohc
+Version: 0.3.0
+Section: custom
+Priority: optional
+Architecture: all
+Essential: no
+Installed-Size: 1024
+Depends: libev4
+Maintainer: ivan.paez@adlinktech.com
+Description: Pre-built binaries for zenoh-c library

@@ -1,0 +1,8 @@
+%dir /usr/lib/debug
+%dir /usr/lib/debug/.build-id
+%dir /usr/lib/debug/.build-id/fc
+%dir /usr/lib/debug/usr
+%dir /usr/lib/debug/usr/bin
+/usr/lib/debug/.build-id/fc/364a1543576db672355a85a3851773f659fde7
+/usr/lib/debug/.build-id/fc/364a1543576db672355a85a3851773f659fde7.debug
+/usr/lib/debug/usr/bin/yaksd.debug
