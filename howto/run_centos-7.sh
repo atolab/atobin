@@ -56,8 +56,8 @@ for RPM in $RPMPACKS; do
   echo -e "%{_bindir}/%{name}\n" 	>> $RPMD.spec
 
   echo "%changelog"			>> $RPMD.spec	
-  echo "* Tue Aug 20 2019 Atolab <geeks@adlink-labs.tech> - %{version}-%{release}" 	>> $RPMD.spec
-  echo "- First $RPMD rpm package" 				     		>> $RPMD.spec	
+  echo "* `date +"%a %b %d %Y"` atolab <geeks@adlink-labs.tech> - %{version}-%{release}" 	>> $RPMD.spec
+  echo "- $RPMD-$VERSION rpm package" 				     		>> $RPMD.spec	
 
   mv $RPMD.spec SPECS/
 
