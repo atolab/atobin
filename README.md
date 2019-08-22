@@ -4,11 +4,10 @@ This repository contains pre-built network services as well as pre-build SDKs.
 ## ATO Prebuilt Network Services
 This repository contains pre-built binaries for zenoh and YAKS network service.
 
-## ATO Prebuilt Debian Packages
-
 ### zenoh
 
 **Latest version: 0.3.0**
+
 **Latest release: 2019-07-19**
 
 | OS | Binaries | Brew/Debian/RPM package | Nightly Build |
@@ -22,6 +21,7 @@ This repository contains pre-built binaries for zenoh and YAKS network service.
 ### YAKS
 
 **Latest version: 0.3.0**
+
 **Latest release: 2019-07-19**
 
 | OS | Binaries |  Brew/Debian/RPM package | Nightly Build |
@@ -37,6 +37,7 @@ This repository contains pre-built binaries for zenoh and YAKS.
 ### zenoh-C API
 
 **Latest version: 0.3.0**
+
 **Latest release: 2019-07-19**
 
 | OS | Binaries |  Brew/Debian package | Nightly Build |
