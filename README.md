@@ -7,35 +7,32 @@ This repository contains pre-built binaries for zenoh and YAKS network service.
 ### zenoh
 
 **Latest version: 0.3.0**
-
 **Latest release: 2019-07-19**
 
 | OS | Version | Stable Binaries | Brew/Debian/RPM package | Unstable Binaries |
 | --- | --- | --- | --- | --- |
-| [macos](./zenoh/latest/macos)   | 10.15.5 / 10.14.6 | [zenohd](./zenoh/latest/macos/10.15.5/zenohd)  | [brew](./zenoh/latest/macos) | [zenohd](./zenoh/unstable/macos/10.14.6/zenohd)|
+| [macos](./zenoh/latest/macos)   | 10.15.5 | [zenohd](./zenoh/latest/macos/10.15.5/zenohd)  | [brew](./zenoh/latest/macos) | [zenohd](./zenoh/unstable/macos/10.14.6/zenohd)|
 | [ubuntu](./zenoh/latest/ubuntu) | 16.04 LTS | [zenohd](./zenoh/latest/ubuntu/16.04/zenohd) | [zenohd-0.3.0_amd64.deb](./zenoh/latest/ubuntu/16.04/zenohd-0.3.0_amd64.deb) | [zenohd](./zenoh/unstable/ubuntu/16.04/zenohd) <br/> [zenoh-http-plugin.cmxs](./zenoh/unstable/ubuntu/16.04/zenoh-http-plugin.cmxs) |
-| ubuntu (arm64)| 18.04 LTS | [zenohd](./zenoh/latest/ubuntu/18.10/zenohd) | [zenohd-0.3.0_amd64.deb](./zenoh/latest/ubuntu/18.10/zenohd-0.3.0_amd64.deb) | [zenohd](./zenoh/unstable/ubuntu_arm64/16.04/zenohd) <br/> [zenoh-http-plugin.cmxs](./zenoh/unstable/ubuntu_arm64/16.04/zenoh-http-plugin.cmxs)  |
+| ubuntu (arm64)| 18.04 LTS | [zenohd](./zenoh/latest/ubuntu/18.10/zenohd) | [zenohd-0.3.0_amd64.deb](./zenoh/latest/ubuntu/18.10/zenohd-0.3.0_amd64.deb) | [zenohd](./zenoh/unstable/ubuntu_arm64/18.04/zenohd) <br/> [zenoh-http-plugin.cmxs](./zenoh/unstable/ubuntu_arm64/18.04/zenoh-http-plugin.cmxs)  |
 | [centos](./zenoh/latest/centos) | 7.2.1511 | [zenohd](./zenoh/latest/centos/7.2.1511/zenohd) | [zenohd-0.3.0.x86_64.rpm](./zenoh/latest/centos/7.2.1511/zenohd-0.3.0-1.el7.x86_64.rpm)| |
 | raspbian (armv7l) | 9.4 | | | [zenohd](./zenoh/unstable/raspian_armv7l/9.4/zenohd) <br/> [zenoh-http-plugin.cmxs](./zenoh/unstable/raspian_armv7l/9.4/zenoh-http-plugin.cmxs) |
 
 ### YAKS
 
 **Latest version: 0.3.0**
-
 **Latest release: 2019-07-19**
 
 | OS | Version | Stable Binaries |  Brew/Debian/RPM package | Unstable Binaries |
 | --- | --- | --- | --- | --- |
 | [macos](./yaks/latest/macos)   | 10.15.5 | [yaksd](./yaks/latest/macos/10.15.5/yaksd)  | [brew](./yaks/latest/macos) | |
-| [ubuntu](./yaks/latest/ubuntu) | 16.04 LTS | [yaksd](./yaks/latest/ubuntu/16.04/yaksd) | [yaksd-0.3.0_amd64.deb](./yaks/latest/ubuntu/16.04/yaksd-0.3.0_amd64.deb)    | |
-| | 18.10 | [yaksd](./yaks/latest/ubuntu/18.10/yaksd) | [yaksd-0.3.0_amd64.deb](./yaks/latest/ubuntu/18.10/yaksd-0.3.0_amd64.deb) | |
+| [ubuntu](./yaks/latest/ubuntu) | 16.04 LTS | [yaksd](./yaks/latest/ubuntu/16.04/yaksd) | [yaksd-0.3.0_amd64.deb](./yaks/latest/ubuntu/16.04/yaksd-0.3.0_amd64.deb)    | [yaks-plugin.cmxs] (./yaks/unstable/ubuntu/16.04/yaks-plugin.cmxs)|
+| ubuntu (arm64) | 18.04 LTS | [yaksd](./yaks/latest/ubuntu/18.10/yaksd) | [yaksd-0.3.0_amd64.deb](./yaks/latest/ubuntu/18.10/yaksd-0.3.0_amd64.deb) | [yaks-plugin.cmxs] (./yaks/unstable/ubuntu_arm64/18.04/yaks-plugin.cmxs) |
 | [centos](./yaks/latest/centos) | 7.2.1511 | [yaksd](./yaks/latest/centos/7.2.1511/yaksd) | [yaksd-0.3.0.x86_64.rpm](./yaks/latest/centos/7.2.1511/yaksd-0.3.0-1.el7.x86_64.rpm) | |
-
+| raspbian (armv7l) | 9.4 | | | [yaks-plugin.cmxs](./unstable/raspbian_armv7l/9.4/yaks-plugin.cmxs) |
 
 ### Eclipse Fog05
 
 **Latest version: 0.2.0**
-
 **Latest release: 2019-09-03**
 
 | OS | Version | Stable Binaries | Unstable Binaries |
@@ -53,7 +50,6 @@ This repository contains pre-built binaries for zenoh and YAKS.
 ### zenoh-C API
 
 **Latest version: 0.3.0**
-
 **Latest release: 2019-07-19**
 
 | OS | Version | Stable Binaries |  Brew/Debian package | Unstable Binaries |
@@ -66,7 +62,6 @@ This repository contains pre-built binaries for zenoh and YAKS.
 ### zenoh-java API
 
 **Latest version: 0.3.0**
-
 **Latest release: 2019-07-19**
 
 | OS | Version | Stable jar | Unstable jar |
