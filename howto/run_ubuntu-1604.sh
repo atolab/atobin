@@ -15,6 +15,8 @@ for DEB in $DEBPACKS; do
   mkdir $MAINDIR/$DEB-$VERSION/DEBIAN
   mkdir $MAINDIR/$DEB-$VERSION/usr
 
+ echo "  Creating control file ..."
+
   echo "Package: $DEB " >> control
   echo "Version: $VERSION " >> control
   echo "Section: custom " >> control
@@ -23,21 +25,21 @@ for DEB in $DEBPACKS; do
   echo "Essential: no" >> control
   echo "Installed-Size: 1024" >> control
   echo "Depends: libev4" >> control
-  echo "Maintainer: geeks@adlink-labs.tech" >> control
+  echo "Maintainer: Ivan Paez geeks@adlink-labs.tech" >> control
   echo "Description: $DEB deamon" >> control
 
   mv control $MAINDIR/$DEB-$VERSION/DEBIAN/
 
 done
 
-echo " Copying binaries files ..."
+echo "  Copying binaries files ..."
 
-wget -O zenohd  https://github.com/atolab/atobin/blob/master/zenoh/latest/ubuntu/16.40/zenohd?raw=true
+wget -O zenohd  https://github.com/atolab/atobin/blob/master/zenoh/latest/ubuntu/16.04/zenohd?raw=true
 chmod +x zenohd
 mkdir $MAINDIR/zenohd-$VERSION/usr/bin
 mv zenohd $MAINDIR/zenohd-$VERSION/usr/bin
 
-wget -O yaksd https://github.com/atolab/atobin/blob/master/yaks/latest/ubuntu/16.40/yaksd?raw=true
+wget -O yaksd https://github.com/atolab/atobin/blob/master/yaks/latest/ubuntu/16.04/yaksd?raw=true
 chmod +x yaksd
 mkdir $MAINDIR/yaksd-$VERSION/usr/bin
 mv yaksd $MAINDIR/yaksd-$VERSION/usr/bin
@@ -55,5 +57,5 @@ echo " Creating $DEB deb package ... "
 for DEB in $DEBPACKS; do
 
   dpkg-deb --build $MAINDIR/$DEB-$VERSION
-
+  rm -rf $MAINDIR/$DEB-$VERSION
 done

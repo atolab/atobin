@@ -55,5 +55,5 @@ echo " Creating $DEB deb package ... "
 for DEB in $DEBPACKS; do
 
   dpkg-deb --build $MAINDIR/$DEB-$VERSION
-
+  rm -rf $MAINDIR/$DEB-$VERSION
 done
