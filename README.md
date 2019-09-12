@@ -55,8 +55,8 @@ This repository contains pre-built binaries for zenoh and YAKS.
 | OS | Version | Stable Binaries |  Brew/Debian package | Unstable Binaries |
 | --- |:---:|:---:|:---:|:---:|
 | [macos](./zenoh-c/latest/macos)   | 10.15.5 | [libzenohc.dylib](./zenoh-c/latest/macos/10.15.5/libzenohc.dylib)  | [brew](./zenoh-c/latest/macos) | |
-| [ubuntu (x86)](./zenoh-c/latest/ubuntu) | 16.04 LTS | [libzenohc.so](./zenoh-c/latest/ubuntu/16.04/libzenohc.so) | [libzenohc-0.3.0_amd64.deb](./zenoh-c/latest/ubuntu/16.04/libzenohc-0.3.0_amd64.deb) <br/> [zenohc-dev.deb](./zenoh-c/latest/ubuntu/16.04/zenohc-dev.deb) | [libzenohc.so](./zenoh-c/unstable/ubuntu/16.04/libzenohc.so)|
-| | 18.04 LTS | [libzenohc.so](./zenoh-c/latest/ubuntu/18.10/libzenohc.so)  | [libzenohc-0.3.0_amd64.deb](./zenoh-c/latest/ubuntu/18.10/libzenohc-0.3.0_amd64.deb) <br/> [zenohc-dev.deb](./zenoh-c/latest/ubuntu/16.04/zenohc-dev.deb) | [libzenohc.so](./zenoh-c/unstable/ubuntu/18.04/libzenohc.so) |
+| [ubuntu](./zenoh-c/latest/ubuntu) | 16.04 LTS | [libzenohc.so](./zenoh-c/latest/ubuntu/16.04/libzenohc.so) | [zenohc.deb](./zenoh-c/latest/ubuntu/16.04/libzenohc-0.3.0_amd64.deb) <br/> [zenohc-dev.deb](./zenoh-c/latest/ubuntu/16.04/zenohc-dev.deb) | [libzenohc.so](./zenoh-c/unstable/ubuntu/16.04/libzenohc.so)|
+| | 18.04 LTS | [libzenohc.so](./zenoh-c/latest/ubuntu/18.10/libzenohc.so)  | [zenohc.deb](./zenoh-c/latest/ubuntu/18.10/libzenohc-0.3.0_amd64.deb) <br/> [zenohc-dev.deb](./zenoh-c/latest/ubuntu/16.04/zenohc-dev.deb) | [libzenohc.so](./zenoh-c/unstable/ubuntu/18.04/libzenohc.so) |
 | raspbian (armv7l) | 9.4 | | | [libzenohc.so](./zenoh-c/unstable/raspian_armv7l/9.4/libzenohc.so)|
 
 ### zenoh-java API
