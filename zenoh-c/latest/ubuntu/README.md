@@ -1,6 +1,6 @@
 ### Installing Zenoh-c in Ubuntu
 
-## Ubuntu-16.04
+## Ubuntu-16.04 LTS
 
 In order to install **zenoh-c** in Ubuntu-16.04 from a debian package, exec the following commands in a console:
 ```
@@ -13,15 +13,28 @@ $ ls /usr/local/lib/
 ```
 Then the **libzenohc.so** should appear in the /usr/local/lib folder.
 
-## Ubuntu-18.10
+## Ubuntu-18.04 LTS (bionic)
 
-In order to install **zenoh-c** in Ubuntu-18.10, download the following debian package:
+Now you can install **zenoh-c** in Ubuntu-18.04 through the launchpad.net site of [atolab](https://launchpad.net/~atolab/+archive/ubuntu/zenohc) with the following commands:
+
 ```
-$ wget -O libzenohc.deb https://github.com/atolab/atobin/blob/master/zenoh-c/latest/ubuntu/18.10/libzenohc-0.3.0_amd64.deb?raw=true
-$ sudo apt install ./libzenohc.deb
+$ sudo add-apt-repository ppa:atolab/zenohc
+$ sudo apt-get update
+$ sudo apt install zenohc
 ```
-To test if **zenoh-c** is installed correctly:
+
+To test if **zenoh-c** is installed correctly, list the installed packages with the following command:
+
 ```
-$ ls /usr/local/lib/
+$ apt list --installed
+...
+zenohc/bionic,now 0.3.0-1 amd64 [installed]  # the zenohc package should appear installed
 ```
-Then the **libzenohc.so** should appear in the /usr/local/lib folder.
+
+Additionally, you can also verify if the headers files exist by doing:
+
+```
+$ ls /usr/include/
+```
+
+Then the **zenoh** folder and the **zenon.h** file should exist in that location.
