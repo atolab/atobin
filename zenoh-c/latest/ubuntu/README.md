@@ -15,10 +15,10 @@ Then the **libzenohc.so** should appear in the /usr/local/lib folder.
 
 ## Ubuntu-18.04 LTS (bionic)
 
-Now you can install **zenoh-c** in Ubuntu-18.04 through the launchpad.net site of [atolab](https://launchpad.net/~atolab/+archive/ubuntu/zenohc) with the following commands:
+Now you can install **zenoh-c** in Ubuntu-18.04 through the launchpad.net site of [atolab](https://launchpad.net/~atolab/+archive/ubuntu/atobin) with the following commands:
 
 ```
-$ sudo add-apt-repository ppa:atolab/zenohc
+$ sudo add-apt-repository ppa:atolab/atobin
 $ sudo apt-get update
 $ sudo apt install zenohc
 ```
@@ -26,9 +26,9 @@ $ sudo apt install zenohc
 To test if **zenoh-c** is installed correctly, list the installed packages with the following command:
 
 ```
-$ apt list --installed
-...
-zenohc/bionic,now 0.3.0-1 amd64 [installed]  # the zenohc package should appear installed
+$ apt list --installed | grep zenohc
+
+zenohc/bionic,now 0.3.0-1 amd64 [installed]  # the zenoh-c package should appear installed
 ```
 
 Additionally, you can also verify if the headers files exist by doing:
