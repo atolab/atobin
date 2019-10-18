@@ -6,7 +6,7 @@ In order to install **YAKS** & **zenoh** in CentOs do the following:
 ```
 $ vi /etc/yum.repos.d/atolab.repo
 ```
-enter the correct **server-name** or **repo-server-ip** address:
+Enter the correct **server-name** or **repo-server-ip** address:
 ```
 [atolab-repo]
 name=Atolab RPM System Package Repo
@@ -15,13 +15,13 @@ enabled=1
 gpgcheck=0
 ```
 
-2. check the **atolab-repo** is available to yum: 
+2. Check the **atolab-repo** is available to yum: 
 ```
 $ yum repolist
 $ yum update
 ```
 
-3. install YAKS & zenoh + libs 
+3. Install YAKS & zenoh + libs 
 ```
 $ yum install yaks
 
@@ -40,7 +40,7 @@ Installing for dependencies:
 
 ```
 
-4. test it
+4. Test the installation:
 
 ```
 $ zenohd -v
@@ -57,7 +57,7 @@ $ zenohd -v
 ```
 
 
-5. To show the man help-page:
+5. Show the man (help) page:
 ```
 $ zenohd --help
 
