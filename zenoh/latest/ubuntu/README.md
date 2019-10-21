@@ -3,9 +3,9 @@
 
 To install YAKS & zenoh in debian (ubuntu) please do the following:
 
-1. Add the atolab repository to the sources list  (change ip address)
+1. Add the atolab repository to the sources list, i.e. eu-central.yaks.is 
 ```
-$ echo "deb [trusted=yes] http://10.100.1.219/debian ./" | sudo tee -a /etc/apt/sources.list > /dev/null
+$ echo "deb [trusted=yes] http://eu-central.yaks.is//debian ./" | sudo tee -a /etc/apt/sources.list > /dev/null
 ```
 
 2. Update the apt repo list
