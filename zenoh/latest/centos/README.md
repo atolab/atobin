@@ -10,7 +10,7 @@ Enter the **server-name** or **repo-server-ip** address, i.e. **eu-central.yaks.
 ```
 [atolab-repo]
 name=Atolab RPM Package Repo
-baseurl=http://eu-central.yaks.is/centos/     # server-name or repo-server-ip
+baseurl=http://demo.yaks.is/centos/     # server-name or repo-server-ip
 enabled=1
 gpgcheck=0
 ```
