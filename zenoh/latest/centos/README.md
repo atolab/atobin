@@ -2,15 +2,15 @@
 
 In order to install **YAKS** & **zenoh** in CentOs do the following:
 
-1. Create a yum .repo file as below :
+1. Create a yum .repo file as shown below :
 ```
 $ vi /etc/yum.repos.d/atolab.repo
 ```
-Enter the correct **server-name** or **repo-server-ip** address:
+Enter the **server-name** or **repo-server-ip** address, i.e. **eu-central.yaks.is**:
 ```
 [atolab-repo]
-name=Atolab RPM System Package Repo
-baseurl=http://10.198.125.97/     # server-name or repo-server-ip
+name=Atolab RPM Package Repo
+baseurl=http://eu-central.yaks.is/centos/     # server-name or repo-server-ip
 enabled=1
 gpgcheck=0
 ```
