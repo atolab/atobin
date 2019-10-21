@@ -1,37 +1,34 @@
 
-### Installing Zenoh in Ubuntu
+### Installing YAKS & zenoh in debian:
 
-In order to install **zenoh** in Ubuntu (i.e Ubuntu-1604) directly from the debian package, exec the following commands in a console:
+To install YAKS & zenoh in debian (ubuntu) please do the following:
+
+1. Add the atolab repository to the sources list  (change ip address)
 ```
-> wget -O zenohd.deb https://github.com/atolab/atobin/blob/master/zenoh/latest/ubuntu/16.04/zenohd-0.3.0_amd64.deb?raw=true
-> sudo apt install ./zenohd.deb
+$ echo "deb [trusted=yes] http://10.100.1.219/debian ./" | sudo tee -a /etc/apt/sources.list > /dev/null
 ```
-To test if **zenoh** is installed correctly:
+
+2. Update the apt repo list
 ```
-> zenohd --help
+$ sudo apt update
 ```
-Then the man for zenohd should appear:
 
+3. Install yaks
 ```
-zenohd(1)                        Zenohd Manual                       zenohd(1)
+$ sudo apt install yaks
+```
 
+4. Run zenohd with should come with http and YAKS as plugin, as follows: 
+```
+$ zenohd -v
 
-
-NAME
-       zenohd
-
-SYNOPSIS
-       zenohd [OPTION]...
-
-OPTIONS
-       --color=WHEN (absent=auto)
-           Colorize the output. WHEN must be one of `auto', `always' or
-           `never'.
-
-       --help[=FMT] (default=auto)
-           Show this help in format FMT. The value FMT must be one of `auto',
-           `pager', `groff' or `plain'. With `auto', the format is `pager` or
-           `plain' whenever the TERM env var is `dumb' or undefined.
-
-(this is an extract)
+[1571059643.620214][INFO] Zenoh router starting ...
+[1571059643.620648][INFO] pid     : 526e41afbb0744c7b889eedb26db34ec
+[1571059643.620673][INFO] tcpport : 7447
+[1571059643.620685][INFO] peers   : 
+[1571059643.624449][INFO] Loading plugin '/usr/bin/../lib/zenoh-http-plugin.cmxs' ...
+[1571059643.645578][INFO] [Zhttp] listening on port tcp/0.0.0.0:8000
+[1571059643.645634][INFO] Loading plugin '/usr/bin/../lib/yaks-plugin.cmxs' ...
+[1571059643.649400][INFO] [Yaks] create Yaks admin space on /@/526e41afbb0744c7b889eedb26db34ec/plugins/yaks/**
+[1571059643.653890][INFO] Starting TcpService at tcp/0.0.0.0:7447 with svc-id 1
 ```
