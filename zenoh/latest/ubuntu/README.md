@@ -3,7 +3,7 @@
 
 To install YAKS & zenoh in debian (ubuntu) please do the following:
 
-1. Add the atolab repository to the sources list, i.e. **demo.yaks.is** 
+1. Add the atolab repository to the sources list, i.e. **pkgs.adlink-labs.tech** 
 ```
 $ echo "deb [trusted=yes] http://pkgs.adlink-labs.tech/debian ./" | sudo tee -a /etc/apt/sources.list > /dev/null
 ```
