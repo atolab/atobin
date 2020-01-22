@@ -1,7 +1,7 @@
 
-### Installing YAKS & zenoh in debian:
+### Installing zenoh in debian (ubuntu 18.04 LTS) :
 
-To install YAKS & zenoh in debian (ubuntu) please do the following:
+To install zenoh in debian (ubuntu) please do the following:
 
 1. Add the atolab repository to the sources list, i.e. **pkgs.adlink-labs.tech** 
 ```
@@ -13,12 +13,16 @@ $ echo "deb [trusted=yes] http://pkgs.adlink-labs.tech/debian ./" | sudo tee -a 
 $ sudo apt update
 ```
 
-3. Install yaks
+3. Install **zenoh**:
 ```
-$ sudo apt install yaks
+$ sudo apt install zenohd
+```
+4. Test installation:
+```
+$ zenohd --help
 ```
 
-4. Run zenohd with should come with http and YAKS as plugin, as follows: 
+5. Run zenohd with should come with http and YAKS as plugin, as follows: 
 ```
 $ zenohd -v
 
