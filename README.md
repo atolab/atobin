@@ -38,7 +38,7 @@ This repository contains pre-built binaries for zenoh's apis.
 ### zenoh-C API
 
 **Latest version: 0.4.0** \
-**Latest release: 2020-01-13**
+**Latest release: 2020-01-22**
 
 | OS | Version | Stable Binaries |  Brew/Debian package | Unstable Binaries |
 | --- |:---:|:---:|:---:|:---:|
