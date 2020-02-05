@@ -5,7 +5,7 @@ To install zenoh in debian (ubuntu) please do the following:
 
 1. Add the atolab repository to the sources list, i.e. **pkgs.adlink-labs.tech** 
 ```
-$ echo "deb [trusted=yes] http://pkgs.adlink-labs.tech/debian ./" | sudo tee -a /etc/apt/sources.list > /dev/null
+$ echo "deb [trusted=yes] http://pkgs.adlink-labs.tech/debian/18.04 ./" | sudo tee -a /etc/apt/sources.list > /dev/null
 ```
 
 2. Update the apt repo list
@@ -47,29 +47,26 @@ OPTIONS
 (...)           
            
 ```
+5. Install **libzenohc**, **libzenohc-dev**, **zenoh-http**, **zenoh-storages** puglins as follows:
+```
+$ sudo apt install libzenohc libzenoh-dev zenoh-http zenoh-storages
+```
 
-5. Run **zenohd -v***, if **zenoh-storages** plugin is installed, the output should be as follows: 
+6. Run **zenoh**, if **zenoh-http** and **zenoh-storages** plugins are correctly installed, the output should be as follows: 
 ```
 $ zenohd -v
+0 - 10.198.125.67
+[1580922609.712986][INFO] Running scouting on interface auto
 
-0 - 172.20.0.1
-1 - 172.17.0.1
-2 - 172.19.0.1
-3 - 172.18.0.1
-4 - 172.21.0.1
-5 - 10.0.3.1
-6 - 10.198.125.1
-7 - 192.168.122.1
-8 - 192.168.0.16
-[1579737446.165357][INFO] Running scouting on interface auto
+[1580922609.713035][INFO] Joining MCast group
+[1580922609.713073][INFO] Zenoh router starting ...
+[1580922609.713094][INFO] pid     : 2e8b68206c984c91b7ba276cdfe3eab4
+[1580922609.713101][INFO] tcpport : 7447
+[1580922609.713110][INFO] peers   : 
+[1580922609.714879][INFO] Loading plugin 'http' from '/usr/local/lib//zenoh-plugin-http.cmxs' with args: '/usr/local/lib//zenoh-plugin-http.cmxs'...
+[1580922609.725475][INFO] [Zhttp] listening on port tcp/0.0.0.0:8000
+[1580922609.725510][INFO] Loading plugin 'storages' from '/usr/local/lib//zenoh-plugin-storages.cmxs' with args: '/usr/local/lib//zenoh-plugin-storages.cmxs'...
+[1580922609.726774][INFO] [Zstorages] create storages admin space on /@/router/2e8b68206c984c91b7ba276cdfe3eab4/plugin/storages/**
+[1580922609.727174][INFO] TcpService listening on port tcp/0.0.0.0:7447
 
-[1579737446.165384][INFO] Joining MCast group
-[1579737446.165411][INFO] Zenoh router starting ...
-[1579737446.165426][INFO] pid     : db1787119f8c4b11b01249f574b4dbaa
-[1579737446.165432][INFO] tcpport : 7447
-[1579737446.165437][INFO] peers   : 
-[1579737446.167515][INFO] Loading plugin 'storages' from '/usr/local/lib//zenoh-plugin-storages.cmxs' with args: '/usr/local/lib//zenoh-plugin-storages.cmxs'...
-[1579737446.172215][INFO] [Zstorages] create storages admin space on /@/router/db1787119f8c4b11b01249f574b4dbaa/plugin/storages/**
-[1579737446.172277][INFO] TcpService listening on port tcp/0.0.0.0:7447
-```
 ```
