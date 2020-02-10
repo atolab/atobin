@@ -45,7 +45,7 @@ This repository contains pre-built binaries for zenoh's apis.
 | [macos](./zenoh-c/latest/macos)   | 10.15.5 | [libzenohc.dylib](./zenoh-c/latest/macos/10.15.5/libzenohc.dylib)  | [brew](./zenoh-c/latest/macos) | |
 | [ubuntu (x86_64)](./zenoh-c/latest/ubuntu) | 16.04 LTS | [libzenohc.so](./zenoh-c/latest/ubuntu/16.04/libzenohc.so) | [libzenohc-0.4.0.deb](./debian/16.04/libzenohc-0.4.0.deb) <br/> [libzenohc-dev-0.4.0.deb](./debian/16.04/libzenohc-dev-0.4.0.deb)  | [libzenohc.so](./zenoh-c/unstable/ubuntu/16.04/libzenohc.so)|
 | | 18.04 LTS | [libzenohc.so](./zenoh-c/latest/ubuntu/18.04/libzenohc.so)  | [libzenohc-0.4.0.deb](./debian/18.04/libzenohc-0.4.0.deb) <br/> [libzenohc-dev-0.4.0.deb](./debian/18.04/libzenohc-dev-0.4.0.deb)  | [libzenohc.so](./zenoh-c/unstable/ubuntu/18.04/libzenohc.so) |
-| centos-7 (x86_64) | 7.2.1511 | | | |
+| centos-7 (x86_64) | 7.2.1511 | [libzenohc.so](./zenoh-c/latest/centos/7.2.1511/libzenohc.so) | [libzenohc-0.4.0-1.el7.x86_64.rpm](./centos/7.2.1511/libzenohc-0.4.0-1.el7.x86_64.rpm) <br/> [libzenohc-dev-0.4.0-1.el7.x86_64.rpm](./centos/7.2.1511/libzenohc-dev-0.4.0-1.el7.x86_64.rpm) | [libzenohc.so](./zenoh-c/unstable/centos/7.2.1511/libzenohc.so)|
 | raspbian (armv7l) | 9.4 | | | |
 
 ### zenoh-java API
