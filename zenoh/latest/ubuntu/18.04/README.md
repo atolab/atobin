@@ -15,7 +15,7 @@ $ sudo apt update
 
 3. Install **zenoh**:
 ```
-$ sudo apt install zenohd
+$ sudo apt install zenoh
 ```
 4. Test installation, the output should be the man page:
 ```
@@ -47,9 +47,9 @@ OPTIONS
 (...)           
            
 ```
-5. Install **libzenohc**, **libzenohc-dev**, **zenoh-http**, **zenoh-storages** puglins as follows:
+5. Install **libzenohc**, **libzenohc-dev**, **zenoh-http**, **zenoh-storages** plugins as follows:
 ```
-$ sudo apt install libzenohc libzenoh-dev zenoh-http zenoh-storages
+$ sudo apt install libzenohc libzenohc-dev zenoh-http zenoh-storages
 ```
 
 6. Run **zenoh**, if **zenoh-http** and **zenoh-storages** plugins are correctly installed, the output should be as follows: 
