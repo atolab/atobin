@@ -49,7 +49,7 @@ OPTIONS
 ```
 5. Install **libzenohc**, **libzenohc-dev**, **zenoh-http**, **zenoh-storages** plugins as follows:
 ```
-$ sudo apt install libzenohc libzenoh-dev zenoh-http zenoh-storages
+$ sudo apt install libzenohc libzenohc-dev zenoh-http zenoh-storages
 ```
 
 6. Run **zenoh**, if **zenoh-http** and **zenoh-storages** plugins are correctly installed, the output should be as follows: 
