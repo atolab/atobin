@@ -15,7 +15,7 @@ $ sudo apt update
 
 3. Install **zenoh**:
 ```
-$ sudo apt install zenohd
+$ sudo apt install zenoh
 ```
 4. Test installation, the output should be the man page:
 ```
