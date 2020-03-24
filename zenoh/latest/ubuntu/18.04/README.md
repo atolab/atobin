@@ -47,7 +47,7 @@ OPTIONS
 (...)           
            
 ```
-5. Install **libzenohc**, **libzenohc-dev**, **zenoh-http**, **zenoh-storages** puglins as follows:
+5. Install **libzenohc**, **libzenohc-dev**, **zenoh-http**, **zenoh-storages** plugins as follows:
 ```
 $ sudo apt install libzenohc libzenoh-dev zenoh-http zenoh-storages
 ```
