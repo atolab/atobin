@@ -1,19 +1,16 @@
 
 # Script to generate the debs pakages for zenohc-dev
 
-VERSION="0.3.0"
-MAINDIR="zenohc-dev"
+VERSION="0.5.0"
+MAINDIR="libzenohc-dev"
 
-echo "  Creating zenohc-dev deb structure .."
+echo "  Creating libzenohc-dev deb structure .."
 
 # create deb structure for the deb package
 
-mkdir $MAINDIR-$VERSION
-mkdir $MAINDIR-$VERSION/DEBIAN
-mkdir $MAINDIR-$VERSION/usr
-mkdir $MAINDIR-$VERSION/usr/local
-mkdir $MAINDIR-$VERSION/usr/local/lib
-mkdir $MAINDIR-$VERSION/usr/local/include
+mkdir -p $MAINDIR-$VERSION/DEBIAN
+mkdir -p $MAINDIR-$VERSION/usr/local/lib
+mkdir -p $MAINDIR-$VERSION/usr/local/include
 
  echo "  Creating control file ..."
 
@@ -44,7 +41,7 @@ cd ../
 
 echo "  Creating the .deb package ... "
 
-dpkg -b ./$MAINDIR-$VERSION ./zenohc-dev.deb
+dpkg -b ./$MAINDIR-$VERSION ./libzenohc-dev.deb
 
 rm -rf zenoh-c
 rm -rf ./$MAINDIR-$VERSION
