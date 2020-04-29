@@ -1,8 +1,8 @@
 #Script to generate the rpm package for centos-7
 
-VERSION="0.3.0"
+VERSION="0.5.0"
 MAINDIR="centos-7"
-RPMPACKS="zenoh yaks"
+RPMPACKS="zenoh"
 RPMBUILD_DIR=`pwd`
 RPMBUILD_DIR+="/"$MAINDIR
 
@@ -31,7 +31,7 @@ for RPM in $RPMPACKS; do
   echo -e "Release:	1%{?dist} " 	>> $RPMD.spec
   echo -e "Summary:    	%{name} rpm package implemented in bash script.\n" >> $RPMD.spec
   
-  echo -e "License:	GPL" 					>> $RPMD.spec
+  echo -e "License:	EPL 2.0 or Apache 2.0" 					>> $RPMD.spec
   echo -e "URL:         	https://github.com/atolab/$RPM.git" 	>> $RPMD.spec
   echo -e "Source0:	$RPMD-$VERSION.tar.gz\n" 		>> $RPMD.spec
 
@@ -68,18 +68,23 @@ for RPM in $RPMPACKS; do
   mv $RPMD tmp/$RPMD-$VERSION
 
   echo "--- Creating LICENSE file ---"
-  echo -e "This program is free software: you can redistribute it and/or modify" >> LICENSE
-  echo -e "it under the terms of the GNU General Public License as published by" >> LICENSE
-  echo -e "the Free Software Foundation, either version 3 of the License, or" >> LICENSE
-  echo -e "(at your option) any later version.\n" >> LICENSE
+  echo -e "apache-2.0 or epl-2.0" >> LICENSE
+  echo -e "TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION\n" >> LICENSE
+  echo -e "1. Definitions." >> LICENSE
+  echo -e "License: shall mean the terms and conditions for use, reproduction," >> LICENSE
+  echo -e "and distribution as defined by Sections 1 through 9 of this document." >> LICENSE
+  echo -e "Licensor: shall mean the copyright owner or entity authorized by" >> LICENSE
+  echo -e "the copyright owner that is granting the License.\n" >> LICENSE
 
-  echo -e "This program is distributed in the hope that it will be useful," >> LICENSE
-  echo -e "but WITHOUT ANY WARRANTY; without even the implied warranty of" >> LICENSE
-  echo -e "MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the" >> LICENSE
+  echo -e "The accompanying program is provided under the terms of this eclipse" >> LICENSE
+  echo -e "public license (\"agreement\"). any use, reproduction or distribution" >> LICENS
+  echo -e "of the program constitutes recipient's acceptance of this agreement." >> LICENSE
   echo -e "GNU General Public License for more details.\n" >> LICENSE
 
-  echo -e "You should have received a copy of the GNU General Public License" >> LICENSE
-  echo -e "along with this program.  If not, see <http://www.gnu.org/licenses/>." >> LICENSE
+  echo -e "\"Secondary License\" means either the GNU General Public License," >> LICENSE
+  echo -e "Version 2.0, or any later versions of that license, including any" >> LICENSE
+  echo -e "exceptions or additional permissions as identified by the initial" >> LICENSE
+  echo -e "Contributor." >> LICENSE
   cp LICENSE tmp/$RPMD-$VERSION
   
   cd tmp/
@@ -94,4 +99,3 @@ for RPM in $RPMPACKS; do
   rpmbuild --define "_topdir $RPMBUILD_DIR" -bb SPECS/$RPMD.spec
 
 done
-
