@@ -43,7 +43,7 @@ cd ../
 
 echo "  Creating the .deb package ... "
 
-dpkg -b ./$MAINDIR-$VERSION ./libzenohcpico.deb
+dpkg -b ./$MAINDIR-$VERSION ./libzenohpico.deb
 
 rm -rf zenoh-pico
 rm -rf ./$MAINDIR-$VERSION
