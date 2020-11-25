@@ -21,7 +21,7 @@ mkdir -p $MAINDIR-$VERSION/usr/local/include
   echo "Architecture: all" >> control
   echo "Essential: no" >> control
   echo "Installed-Size: 1024" >> control
-  echo "Depends: libev4" >> control
+  echo "Depends: " >> control
   echo "Maintainer: ATO Team geeks@adlink-labs.tech" >> control
   echo "Description: $MAINDIR deb package" >> control
 
@@ -32,7 +32,9 @@ echo "  Copying headers and binaries files ..."
 # i need to do a git clone and then look for the includes folder
 
 git clone -b dev git@github.com:eclipse-zenoh/zenoh-pico.git
-cp -r zenoh-pico/include $MAINDIR-$VERSION/usr/local/include
+cp -r zenoh-pico/include $MAINDIR-$VERSION/usr/local/
+#cp zenoh-pico/include/zenoh-pico.h $MAINDIR-$VERSION/usr/local/include/zenoh-pico.h
+
 
 cd zenoh-pico
 make
